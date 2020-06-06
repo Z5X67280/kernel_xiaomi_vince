@@ -12,7 +12,7 @@
 
 git clone https://github.com/fabianonline/telegram.sh telegram
 
-TELEGRAM_ID=-1001268516549
+TELEGRAM_ID=-1001394087489
 TELEGRAM=telegram/telegram
 BOT_API_KEY=723044228:AAFpmF9aHsMTinCJ7Yq3HLxEzjEBiO47rlU
 TELEGRAM_TOKEN=${BOT_API_KEY}
