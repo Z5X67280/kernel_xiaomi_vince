@@ -13,7 +13,7 @@ steps:
     image: kdrag0n/debian-kbuild:buster
     commands:
       - chmod +x ci.sh
-      - . ci.sh
+      - ./ci.sh
     when:
       branch:
         - _t
