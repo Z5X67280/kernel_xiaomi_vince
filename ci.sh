@@ -96,7 +96,7 @@ export CLANG_TRIPLE=aarch64-linux-gnu-
 export CC=$PWD/Clang/bin/clang
 
 # Cross Compiler Setup
-export CROSS_COMPILE="$PWD/Toolchain/bin/aarch64-linux-gnu-"
+export CROSS_COMPILE="$PWD/Toolchain/bin/aarch64-elf-"
 # export CROSS_COMPILE_ARM32="$PWD/Toolchain-32/bin/arm-opt-linux-androideabi-"
 
 # Customize Build Host and User
