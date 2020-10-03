@@ -107,8 +107,8 @@ export KBUILD_BUILD_HOST="TNR Drone"
 export IMG=$PWD/out/arch/arm64/boot/Image.gz-dtb
 
 # Used for Telegram
-export VERSION_TG="GN"
-export ZIP_VERSION="GN"
+export VERSION_TG="TR"
+export ZIP_VERSION="TR"
 export BUILD_TYPE="REL"
 
 # Install depth for Semaphore
@@ -126,7 +126,7 @@ ln -s /usr/bin/python2 /usr/bin/python
 tg_sendstick
 
 tg_channelcast "<b>Nito Kernel $VERSION_TG</b> new build!" \
-		"Stage: <b>GN</b>" \
+		"Stage: <b>TR</b>" \
 		"From <b>Nito Kernel GN</b>" \
 		"Under commit <b>$(git log --pretty=format:'%h' -1)</b>"
 

@@ -11,7 +11,7 @@ do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
 device.name1=vince
-supported.versions=29
+supported.versions=30
 '; } # end properties
 
 # shell variables
